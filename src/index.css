@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #fdfcf7;
+  color: #1E1E1E;
+  overflow-x: hidden;
+}
+
+/* Golden Glow Effects */
+
+.glow1{
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  background: rgba(212, 175, 55, 0.15);
+  border-radius: 50%;
+  filter: blur(120px);
+  top: -100px;
+  left: -100px;
+  z-index: -1;
+}
+
+.glow2{
+  position: fixed;
+  width: 350px;
+  height: 350px;
+  background: rgba(212, 175, 55, 0.1);
+  border-radius: 50%;
+  filter: blur(120px);
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
