@@ -1,22 +1,22 @@
-@import "tailwindcss";
-
-html{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* your custom styles below */
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   background: #fdfcf7;
   color: #1E1E1E;
   overflow-x: hidden;
 }
-
-/* Golden Glow Effects */
-
-.glow1{
+/* Golden Glow */
+.glow1 {
   position: fixed;
   width: 400px;
   height: 400px;
-  background: rgba(212, 175, 55, 0.15);
+  background: rgba(212,175,55,0.15);
   border-radius: 50%;
   filter: blur(120px);
   top: -100px;
@@ -24,11 +24,11 @@ body{
   z-index: -1;
 }
 
-.glow2{
+.glow2 {
   position: fixed;
   width: 350px;
   height: 350px;
-  background: rgba(212, 175, 55, 0.1);
+  background: rgba(212,175,55,0.1);
   border-radius: 50%;
   filter: blur(120px);
   bottom: 0;
