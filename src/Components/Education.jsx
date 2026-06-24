@@ -2,26 +2,25 @@ import { motion } from "framer-motion";
 function Education() {
   return (
     <motion.section
-  id="education"
-  className="max-w-6xl mx-auto mt-40 px-8"
-  initial={{ opacity: 0, y: 80 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.8 }}
-  viewport={{ once: true }}
->
+      id="education"
+      className="max-w-6xl mx-auto mt-40 px-8"
+      initial={{ opacity: 0, y: 80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+    >
+      <h2 className="text-5xl font-bold text-center mb-20 text-red-500">
+  EDUCATION UPDATED TEST
+</h2>
 
-      <h2 className="text-5xl font-bold text-center mb-20">
-        Education
-      </h2>
-
-      <div className="relative border-l-4 border-yellow-600 ml-8 space-y-16">
+      <div className="relative border-l-4 border-[#D4AF37] ml-8 space-y-16">
 
         {/* College */}
         <div className="relative pl-12">
-          <div className="absolute -left-5 w-8 h-8 bg-yellow-600 rounded-full"></div>
+          <div className="absolute -left-[18px] w-8 h-8 bg-[#D4AF37] rounded-full"></div>
 
-          <h3 className="text-3xl font-bold text-yellow-600">
-            2023 - 2027
+          <h3 className="text-3xl font-bold text-[#D4AF37]">
+            2023 – 2027
           </h3>
 
           <h4 className="text-2xl mt-2 font-semibold">
@@ -39,15 +38,19 @@ function Education() {
 
         {/* HSC */}
         <div className="relative pl-12">
-          <div className="absolute -left-5 w-8 h-8 bg-yellow-600 rounded-full"></div>
+          <div className="absolute -left-[18px] w-8 h-8 bg-[#D4AF37] rounded-full"></div>
 
-          <h3 className="text-3xl font-bold text-yellow-600">
+          <h3 className="text-3xl font-bold text-[#D4AF37]">
             2023
           </h3>
 
           <h4 className="text-2xl mt-2 font-semibold">
-            Higher Secondary Education (HSC)
+            Government Higher Secondary School, Annaiyur
           </h4>
+
+          <p className="text-lg mt-2">
+            Higher Secondary Education (HSC)
+          </p>
 
           <p className="text-lg mt-2">
             Percentage : <span className="font-semibold">87%</span>
@@ -56,15 +59,19 @@ function Education() {
 
         {/* SSLC */}
         <div className="relative pl-12">
-          <div className="absolute -left-5 w-8 h-8 bg-yellow-600 rounded-full"></div>
+          <div className="absolute -left-[18px] w-8 h-8 bg-[#D4AF37] rounded-full"></div>
 
-          <h3 className="text-3xl font-bold text-yellow-600">
+          <h3 className="text-3xl font-bold text-[#D4AF37]">
             2021
           </h3>
 
           <h4 className="text-2xl mt-2 font-semibold">
-            Secondary School Education (SSLC)
+            St. Mary's Convent Matriculation Higher Secondary School, Annur
           </h4>
+
+          <p className="text-lg mt-2">
+            Secondary School Education (SSLC)
+          </p>
 
           <p className="text-lg mt-2">
             Percentage : <span className="font-semibold">90%</span>
@@ -72,7 +79,6 @@ function Education() {
         </div>
 
       </div>
-
     </motion.section>
   );
 }
