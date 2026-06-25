@@ -11,7 +11,7 @@ function AboutMe() {
       viewport={{ once: true }}
     >
       <h2 className="text-5xl font-bold text-center mb-16">
-        AboutMe
+        About Me
       </h2>
 
       <div className="bg-white rounded-3xl shadow-lg p-10 space-y-10">
