@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 function AboutMe() {
   return (
     <motion.section
-      id="aboutMe"
-      className="max-w-6xl mx-auto mt-40 px-8"
+  id="about"
+  className="max-w-6xl mx-auto mt-40 px-8 scroll-mt-32"
       initial={{ opacity: 0, y: 80 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
