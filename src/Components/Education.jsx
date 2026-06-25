@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+
 function Education() {
   return (
     <motion.section
@@ -9,9 +10,9 @@ function Education() {
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
-      <h2 className="text-5xl font-bold text-center mb-20 text-red-500">
-  EDUCATION UPDATED TEST
-</h2>
+      <h2 className="text-5xl font-bold text-center mb-16">
+        Education
+      </h2>
 
       <div className="relative border-l-4 border-[#D4AF37] ml-8 space-y-16">
 
